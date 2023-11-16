@@ -52,6 +52,41 @@ function calculateResult() {
         inputElement.value = 'Erro';
     }
 }
+ function activeCaclMargin (){
+    var marginCalc = document.querySelector('.math_op_buttons .button_calc')
+    marginCalc.classList.add('active')
+    var marginOutput = document.querySelector('.display .output')
+    marginOutput.classList.add('active')
+    var marginCalc =document.querySelector('.calculator')
+    marginCalc.classList.add('active')
+    var marginPorcR = document.querySelector('.math_op_buttons .button_porcentage')
+    marginPorcR.classList.remove('active')
+    var marginSquareR = document.querySelector('.math_op_buttons .sen_cos_tang')
+    marginSquareR.classList.remove('active')
+}
+function activePorMargin() {
+    var marginPorc = document.querySelector('.math_op_buttons .button_porcentage')
+    marginPorc.classList.add('active')
+    var MarginClacR = document.querySelector('.math_op_buttons .button_calc')
+    MarginClacR.classList.remove('active')
+    var marginSquareR = document.querySelector('.math_op_buttons .sen_cos_tang')
+    marginSquareR.classList.remove('active')
+}
+function activeSquareMargin() {
+    var marginSquare = document.querySelector('.math_op_buttons .button_square_root')
+    marginSquare.classList.add('active')
+    var MarginClacR = document.querySelector('.math_op_buttons .button_calc')
+    MarginClacR.classList.remove('active')
+    var marginPorcR = document.querySelector('.math_op_buttons .button_porcentage')
+    marginPorcR.classList.remove('active')
+}
+
+document.querySelector('.math_op_buttons .button_calc').addEventListener('click',activeCaclMargin)
+document.querySelector('.math_op_buttons .button_porcentage').addEventListener('click',activePorMargin)
+document.querySelector('.math_op_buttons .button_square_root').addEventListener('click',activeSquareMargin)
+document.querySelector('.math_op_buttons .sen_cos_tang').addEventListener('click',)
+  
+
 
 // Associar as funções aos botões relevantes
 document.querySelector('.but_op_c').addEventListener('click', clearInput);

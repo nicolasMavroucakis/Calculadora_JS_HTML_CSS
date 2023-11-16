@@ -39,7 +39,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    border: none;
+    
 }
 .opcions_buttons{
     display: flex;
@@ -57,7 +58,9 @@ body{
 .opcions_buttons img{
     height: 50px;
 }
-
+.opcions_buttons:hover{
+    background-color: rgb(30, 30, 30);
+}
 .display{
     background-color: rgba(0,0,0,.2);
     height: 200px;
@@ -103,9 +106,34 @@ body{
 }
 .button_porcentage{
     font-size: 42px;
+    margin-bottom: 20px;
 }
 .button_calc{
     font-size: 42px;
+    margin-bottom: 20px;
+}
+.button_square_root{
+    margin-bottom: 20px;
+}
+.sen_cos_tang{
+    margin-bottom: 20px;
+}
+.sen_cos_tang.active,
+.button_square_root.active, 
+.button_calc.active,
+.button_porcentage.active{
+    margin-bottom: 0px;
+    height: 90px;
+    border-radius: 40px 40px 0 0;
+    border: none;
+}
+.calculator.active{
+    border-radius: 0 40px 40px 40px;
+    border: none;
+}
+.output.active{
+    border-radius: 0 40px 0 0;
+    border: none;
 }
 .num{
     display: flex;
