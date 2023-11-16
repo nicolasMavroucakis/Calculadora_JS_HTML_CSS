@@ -78,9 +78,9 @@ body{
 }
 .porcetage_screen{
     width: 500px;
-    margin-top: 0;
     font-size: 28px;
-    background-color: rgba(0,0,0,.5)
+    background-color: rgba(0,0,0,.5);
+    border-radius: 40px;
 }
 .porInput{
     width: 100px;
@@ -88,21 +88,35 @@ body{
     font-size: 25px;
     background-color: rgba(0,0,0,.6);
     border-style: none;
+    color: white;
 }
 .porInput:hover{
-    background-color: ;
+    background-color: rgb(30, 30, 30);
+}
+.button_porc{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    border-style: none;
+    border-radius: 40px;
+}
+.button_porc:hover{
+    background-color: rgb(92, 92, 253);
+}
+.clear_por_button:hover{
+background-color: rgb(255, 66, 66);
 }
 .porClacDisplay{
     color: white;
     text-align: center;
 }
-.porClacDisplay p {
-    margin: 0;
-}
 .contPorDisplay{
     display: flex;
     justify-content: center;
     align-content: center;
+    gap: 10px;
 }
 .input{
     background-color: rgba(0,0,0,.2);
@@ -146,8 +160,99 @@ body{
 .button_square_root{
     margin-bottom: 20px;
 }
-.sen_cos_tang{
-    margin-bottom: 20px;
+.square_root_screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+    padding-top: 100px;
+    background-image: url(square-root.png);
+    background-color: rgba(0,0,0,.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    border-radius: 40px;
+}
+.input_square{
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    color: rgb(45, 143, 255);
+    background-color: rgba(0,0,0,.4);
+    border-style: none;
+    border-radius: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+.input_square:hover{
+ background-color: rgb(30, 30, 30);
+}
+.button_calc_square{
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgba(0,0,0,.4);
+    border-style: none;
+    color: white;
+}
+.button_calc_square:hover{
+    background-color: rgb(92, 92, 253);
+}
+.button_calc_square_div{
+    padding-top: 30px;
+}
+.num_calc_sen_cos_but{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+    border-style: none;
+    border-radius: 40px;
+    
+}
+.num_calc_sen_cos{
+    color: white;
+}
+.result_sen_cos_diplay {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+    color: white;
+}
+.num_calc_sen_cos input{
+    background-color: rgba(0,0,0,.5);
+    border-style: none;
+    height: 50px;
+    border-radius: 40px;
+    color: white;
+}
+.result_sen_cos_diplay p {
+    text-align: center;
+    margin-right: 10px;
+    width: 50px; 
+}
+
+.result_sen_cos_diplay input[type="text"] {
+    background-color: rgba(0,0,0,.6);
+    border-style: none;
+    border-radius: 40px;
+    text-align: center;
+    width: 180px; 
+    height: 50px;
+    color: white;
+    font-size: 30px;
+}
+.sen_cos_tang_screen{
+    background-color: rgba(0,0,0,.5);
+    padding: 50px;
+    width: 400px;
+    border-radius: 40px;
+    
 }
 .sen_cos_tang.active,
 .button_square_root.active, 
