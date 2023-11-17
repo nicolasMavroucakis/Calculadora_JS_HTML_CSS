@@ -25,18 +25,23 @@
     </div>
     <div class="sen_cos_tang_screen">
         <div class="num_calc_sen_cos">
-            <p>Insira o numero em graus</p><input type="text" class="input_val_cos">
-            <input type="button" value="calculate" class="num_calc_sen_cos_but">
+            <p>Insira o numero em graus</p>
+            <input type="text" id="input_value" class="input_val_cos">
+            <input type="button" value="calculate" class="num_calc_sen_cos_but" id="calculate_btn">
+            <input type="button" value="clear" class="num_calc_sen_cos_but_clear" id="clear_btn">
         </div>
         <div class="result_sen_cos_div">
             <div class="result_sen_cos_diplay">
-                <p>cos</p><input type="text" class="input_sen_cos">
+                <p>cos</p><input type="text" class="input_sen_cos" id="cos_output">
             </div>
             <div class="result_sen_cos_diplay">
-                <p>sen</p><input type="text" class="input_sen_cos">
+                <p>sen</p><input type="text" class="input_sen_cos" id="sin_output">
             </div>
             <div class="result_sen_cos_diplay">
-                <p>tang</p><input type="text" class="input_sen_cos">
+                <p>tang</p><input type="text" class="input_sen_cos" id="tan_output">
+            </div>
+            <div class="result_sen_cos_diplay">
+                <p>rad</p><input type="text" class="input_sen_cos" id="rad_output">
             </div>
         </div>
     </div>
@@ -99,5 +104,6 @@
     <script src="script.js"></script>
     <script src="porcentage.js"></script>
     <script src="square_root.js"></script>
+    <script src="sen_cos_tang.js"></script>
 </body>
 </html>

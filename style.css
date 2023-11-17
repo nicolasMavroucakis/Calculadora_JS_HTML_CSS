@@ -252,6 +252,17 @@ background-color: rgb(255, 66, 66);
 .num_calc_sen_cos_but:hover{
     background-color:  rgb(92, 92, 253);
 }
+.num_calc_sen_cos_but_clear{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+    border-style: none;
+    border-radius: 40px;
+}
+.num_calc_sen_cos_but_clear:hover{
+    background-color:  rgb(255, 66, 66);
+}
 .input_val_cos{
     text-align: center;
     font-size: 30px;
