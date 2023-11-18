@@ -23,87 +23,90 @@
             <img src="sinus.png" alt="">
         </div>
     </div>
-    <div class="sen_cos_tang_screen">
-        <div class="num_calc_sen_cos">
-            <p>Insira o numero em graus</p>
-            <input type="text" id="input_value" class="input_val_cos">
-            <input type="button" value="calculate" class="num_calc_sen_cos_but" id="calculate_btn">
-            <input type="button" value="clear" class="num_calc_sen_cos_but_clear" id="clear_btn">
+    <div class="every_thing">
+        <div class="sen_cos_tang_screen">
+            <div class="num_calc_sen_cos">
+                <p>Insira o numero em graus</p>
+                <input type="text" id="input_value" class="input_val_cos">
+                <input type="button" value="calculate" class="num_calc_sen_cos_but" id="calculate_btn">
+                <input type="button" value="clear" class="num_calc_sen_cos_but_clear" id="clear_btn">
+            </div>
+            <div class="result_sen_cos_div">
+                <div class="result_sen_cos_diplay">
+                    <p>cos</p><input type="text" class="input_sen_cos" id="cos_output">
+                </div>
+                <div class="result_sen_cos_diplay">
+                    <p>sen</p><input type="text" class="input_sen_cos" id="sin_output">
+                </div>
+                <div class="result_sen_cos_diplay">
+                    <p>tang</p><input type="text" class="input_sen_cos" id="tan_output">
+                </div>
+                <div class="result_sen_cos_diplay">
+                    <p>rad</p><input type="text" class="input_sen_cos" id="rad_output">
+                </div>
+            </div>
         </div>
-        <div class="result_sen_cos_div">
-            <div class="result_sen_cos_diplay">
-                <p>cos</p><input type="text" class="input_sen_cos" id="cos_output">
-            </div>
-            <div class="result_sen_cos_diplay">
-                <p>sen</p><input type="text" class="input_sen_cos" id="sin_output">
-            </div>
-            <div class="result_sen_cos_diplay">
-                <p>tang</p><input type="text" class="input_sen_cos" id="tan_output">
-            </div>
-            <div class="result_sen_cos_diplay">
-                <p>rad</p><input type="text" class="input_sen_cos" id="rad_output">
+        <div class="square_root_screen">
+            <div class="square_root_screen_info">
+                <div>
+                    <input type="text" class="input_square">
+                </div>
+                <div class="div_img_square">
+                    <img src="equal.png" alt="">
+                </div>
+                <div>
+                    <input type="text" class="input_square res_square">
+                </div>
+            </div>   
+            <div class="button_calc_square_div">
+                <input type="button" value="calculate" class="button_calc_square">
+                <input type="button" value="clear" class="button_calc_square btn_clar_square">
             </div>
         </div>
-    </div>
-    <div class="square_root_screen">
-        <div class="square_root_screen_info">
+        <div class="porcetage_screen">
+            <div class="porClacDisplay">
+                <p>How much is <input type="text" class="porInput hmi"> % of <input type="text" class="porInput of"></p>
+                <input type="text" class="res">
+            </div>
+            <div class="contPorDisplay">
+                <input type="button" value="calculate" class="button_porc">
+                <input type="button" value="clear" class="button_porc clear_por_button">
+            </div>
             <div>
-                <input type="text" class="input_square">
+            
             </div>
-            <div class="div_img_square">
-                <img src="equal.png" alt="">
+        </div>
+        <div class="calculator">
+            <div class="display">
+                <input type="text" name="output" class="output">
+                <input type="text" name="input" class="input">
             </div>
-            <div>
-                <input type="text" class="input_square res_square">
+            <div class="buttons">
+            <input type= "button" value="C" class="num but_op_c">
+            <input type= "button" value="()" class="num but_op">
+            <input type= "button" value="." class="num but_op">
+            <input type= "button" value="/" class="num but_op">
+            <input type= "button" value="7" class="num but_num">
+            <input type= "button" value="8" class="num but_num">
+            <input type= "button" value="9" class="num but_num">
+            <input type= "button" value="x" class="num but_op">
+            <input type= "button" value="4" class="num but_num">
+            <input type= "button" value="5" class="num but_num">
+            <input type= "button" value="6" class="num but_num">
+            <input type= "button" value="-" class="num but_op">
+            <input type= "button" value="1" class="num but_num">
+            <input type= "button" value="2" class="num but_num">
+            <input type= "button" value="3" class="num but_num">
+            <input type= "button" value="+" class="num but_op">
+            <input type= "button" value="0" class="num but_num num_0">
+            <input type= "button" value="=" class="num but_op_equals">
             </div>
-        </div>   
-        <div class="button_calc_square_div">
-            <input type="button" value="calculate" class="button_calc_square">
-            <input type="button" value="clear" class="button_calc_square btn_clar_square">
-        </div>
-    </div>
-    <div class="porcetage_screen">
-        <div class="porClacDisplay">
-            <p>How much is <input type="text" class="porInput hmi"> % of <input type="text" class="porInput of"></p>
-            <input type="text" class="res">
-        </div>
-        <div class="contPorDisplay">
-            <input type="button" value="calculate" class="button_porc">
-            <input type="button" value="clear" class="button_porc clear_por_button">
-        </div>
-        <div>
-        
-        </div>
-    </div>
-    <div class="calculator">
-        <div class="display">
-            <input type="text" name="output" class="output">
-            <input type="text" name="input" class="input">
-        </div>
-        <div class="buttons">
-        <input type= "button" value="C" class="num but_op_c">
-        <input type= "button" value="()" class="num but_op">
-        <input type= "button" value="." class="num but_op">
-        <input type= "button" value="/" class="num but_op">
-        <input type= "button" value="7" class="num but_num">
-        <input type= "button" value="8" class="num but_num">
-        <input type= "button" value="9" class="num but_num">
-        <input type= "button" value="x" class="num but_op">
-        <input type= "button" value="4" class="num but_num">
-        <input type= "button" value="5" class="num but_num">
-        <input type= "button" value="6" class="num but_num">
-        <input type= "button" value="-" class="num but_op">
-        <input type= "button" value="1" class="num but_num">
-        <input type= "button" value="2" class="num but_num">
-        <input type= "button" value="3" class="num but_num">
-        <input type= "button" value="+" class="num but_op">
-        <input type= "button" value="0" class="num but_num num_0">
-        <input type= "button" value="=" class="num but_op_equals">
         </div>
     </div>
     <script src="script.js"></script>
     <script src="porcentage.js"></script>
     <script src="square_root.js"></script>
     <script src="sen_cos_tang.js"></script>
+    <script src="show _ or _hide.js"></script>
 </body>
 </html>
